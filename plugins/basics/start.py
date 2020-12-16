@@ -1,4 +1,5 @@
 from bot import studybot
+import logging
 from pyrogram import filters
 
 logging.basicConfig(level=logging.INFO)
