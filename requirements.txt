@@ -1,4 +1,4 @@
-tgcrypto
+cryptg
+telethon==1.18.2
 python-dotenv
-pyrogram==1.0.6
 SQLAlchemy==1.3.19
