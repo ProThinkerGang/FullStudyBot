@@ -6,3 +6,4 @@ class var:
   API_ID = os.getenv("API_ID", None) # API_ID
   API_HASH = os.getenv("API_HASH", None) #API_HASH
   BOT_TOKEN = os.getenv("BOT_TOKEN", None) # Your Bot Api Token
+  OWNER_ID = os.getenv("OWNER_ID")
