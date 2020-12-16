@@ -1,1 +1,1 @@
-studybot: python3 bot.py
+studybot: python3 main.py
