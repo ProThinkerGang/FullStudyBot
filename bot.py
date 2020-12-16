@@ -14,5 +14,5 @@ if __name__=="__main__":
                   api_id=var.API_ID,
                  api_hash=var.API_HASH,
                  bot_token=var.BOT_API_TOKEN,
-                 plugins=plugins)
+                 plugins=dict(root="plugins"))
   studybot.run()
