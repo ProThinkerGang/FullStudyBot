@@ -1,4 +1,4 @@
-from bot import studybot
+
 import logging
 from pyrogram import filters
 from pyrogram import Client
