@@ -1,6 +1,6 @@
-from pyrogram import filters
+from pyrogram import filters, Client
 from bot import studybot
 
-@studybot.on_message(filters.command("/bye") & filters.private)
+@Client.on_message(filters.command("/bye") & filters.private)
 async def ssss(client,message):
     await message.reply_text("Bye")
