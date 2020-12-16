@@ -1,5 +1,4 @@
 cryptg
 telethon==1.18.2
-pymongo
 python-dotenv
 SQLAlchemy==1.3.19
