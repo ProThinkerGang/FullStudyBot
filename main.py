@@ -6,5 +6,10 @@ from Var import var
 
 studybot = TelegramClient("Study Bot",api_id=var.API_ID,api_hash=var.API_HASH).start(bot_token=var.BOT_TOKEN)
 
+@studybot.on(events.NewMessage)
+async def startmessage(event):
+    await event.reply("Hi, I am Working")
+    
+    
 with studybot:
     studybot.run_until_disconnected()
