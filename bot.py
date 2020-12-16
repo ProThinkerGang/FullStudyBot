@@ -1,5 +1,8 @@
 from pyrogram import Client
 from Var import var
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 studybot = Client("Full Study Bot",
                   api_id=var.API_ID,
